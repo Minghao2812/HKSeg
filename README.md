@@ -7,7 +7,7 @@
 - dict_institution
   - By Minghao
 - dict_location_hk
-  - Includes locations related to Hong Kong. They don't have to be in Hong Kong phisically.
+  - Includes locations related to Hong Kong. They don't have to be in Hong Kong physically.
   - By Minghao
 - dict_politics
   - By Randy
