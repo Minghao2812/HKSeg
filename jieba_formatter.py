@@ -16,7 +16,7 @@ from os.path import isfile, join
 
 
 def main():
-    dictPath = './userdict'  # The folder stores all user-defined dictionary.
+    dictPath = './'  # The folder stores all user-defined dictionary.
     files = [
         join(dictPath, f) for f in listdir(dictPath)
         if isfile(join(dictPath, f)) and ".txt" in f
