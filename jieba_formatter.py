@@ -1,4 +1,5 @@
 """
+Author: Wang Minghao (19454414@life.hkbu.edu.hk)
 According to the current version of [jieba](https://github.com/fxsjy/jieba) (jieba3k 0.35.1), 
 every line in a user-defined dictionary should be like:
 word(mandantory) frequency(optional) part_of_speech(optional)
