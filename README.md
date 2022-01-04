@@ -20,6 +20,22 @@
 - dict_general_zh
   - By Minghao & Randy
 
+## 停用詞
+
+- ad_words
+  - Summaried keywords related to advertisement and promotional contents appears frequently in Hong Kong public media.
+  - Keywords are in regular expression format.
+  - By Minghao
+- stopwords_canto
+  - Stopwords in Cantonese.
+  - By Randy & Minghao
+- stopwords_en
+  - Stopwords in English.
+  - By Randy & Minghao
+- stopwords_simple
+  - A simplified list of Cantonese stopwords. Numbers are included.
+  - By Minghao
+
 ## jieba 工具
 
 - jieba_formatter.py
