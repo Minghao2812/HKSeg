@@ -1,42 +1,35 @@
 # HKSeg
 
-## 詞典
+It's a collaborative ongoing work.  
+$\dag$ Mainly contributed by [Minghao](https://github.com/Minghao2812)  
+$\ddag$ Mainly contributed by [Randy](https://github.com/randylinhustle)
 
-- dict_celebrity
-  - By Minghao
-- dict_institution
-  - By Minghao
-- dict_location_hk
+## Dictionary
+
+- dict_celebrity $\dag$
+  - Hong Kong celebrity
+- dict_institution $\dag$
+- dict_location_hk $\dag$
   - Includes locations related to Hong Kong. They don't have to be in Hong Kong physically.
-  - By Minghao
-- dict_politics
-  - By Randy
-- dict_covid19_vaccine
-  - By Minghao
-- dict_covid19
-  - By Minghao
-- dict_general_en
-  - By Minghao & Randy
-- dict_general_zh
-  - By Minghao & Randy
+- dict_politics $\ddag$
+- dict_covid19_vaccine $\dag$
+- dict_covid19 $\dag$
+- dict_general_en $\ddag$ $\dag$
+- dict_general_zh $\ddag$ $\dag$
 
-## 停用詞
+## Stopword
 
-- ad_words
+- ad_words $\dag$
   - Summaried keywords related to advertisement and promotional contents appears frequently in Hong Kong public media.
   - Keywords are in regular expression format.
-  - By Minghao
-- stopwords_canto
+- stopwords_canto $\ddag$ $\dag$
   - Stopwords in Cantonese.
-  - By Randy & Minghao
-- stopwords_en
+- stopwords_en $\ddag$ $\dag$
   - Stopwords in English.
-  - By Randy & Minghao
-- stopwords_simple
+- stopwords_simple $\dag$
   - A simplified list of Cantonese stopwords. Numbers are included.
-  - By Minghao
 
-## jieba 工具
+## jieba tools
 
-- jieba_formatter.py
-  - 用于解决 jieba（jieba3k 0.35.1）加载用户词典时的错误。
+- jieba_formatter.py $\dag$
+  - A script made for solving a mistake when loading user-defined dictionary with jieba (jieba3k 0.35.1).
